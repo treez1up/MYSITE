@@ -18,7 +18,7 @@ export function Header({ onContact }: HeaderProps) {
     <header className="fixed inset-x-0 top-0 z-50 h-16 border-b border-slate-200/80 bg-white/85 backdrop-blur-xl">
       <div className="mx-auto flex h-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <a href="#top" data-testid="header-logo" className="font-heading text-lg font-extrabold tracking-tight text-slate-900">
-          Платон<span className="text-blue-600">.dev</span>
+          business<span className="text-blue-600">.maker</span>
         </a>
         <nav className="hidden items-center gap-6 lg:flex">
           {NAV.map((item) => (
