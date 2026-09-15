@@ -32,10 +32,11 @@
 - White-blue theme tokens, grid background, floating blobs, scroll-reveal animations (motion/react).
 - All interactive elements carry data-testid attributes.
 - Verified: `yarn typecheck` clean; API 200 via public URL; browser pass (dialog links, photo load) green.
+- Portfolio section (`Portfolio.tsx`): user's exact intro text, 3 App Store app cards (Расходы — личный бюджет, Кредиты: кредитный калькулятор, Открой свою Самару) with real app icons fetched via iTunes Lookup API (stored in `/public/apps/`), links to the given App Store URLs, note that apps are Apple-only.
+- FAQ accordion (`Faq.tsx`): 5 questions (pricing, 7-day guarantee, start inputs, post-launch support, code ownership), custom animated accordion.
+- Header nav extended with Портфолио and Вопросы anchors.
 
 ## Backlog / next tasks
 - P1: Project cost calculator widget (from design guidelines).
-- P1: FAQ accordion (pricing, deadlines, support).
-- P2: Portfolio/cases section with real project screenshots.
 - P2: Lead form that sends enquiries to Telegram bot.
 - P2: OG/meta preview image for sharing in messengers.

@@ -7,7 +7,9 @@ interface HeaderProps {
 const NAV = [
   { label: "Услуги", href: "#services" },
   { label: "Как это работает", href: "#process" },
+  { label: "Портфолио", href: "#portfolio" },
   { label: "Обо мне", href: "#about" },
+  { label: "Вопросы", href: "#faq" },
 ];
 
 export function Header({ onContact }: HeaderProps) {
@@ -17,7 +19,7 @@ export function Header({ onContact }: HeaderProps) {
         <a href="#top" data-testid="header-logo" className="font-heading text-lg font-extrabold tracking-tight text-slate-900">
           Платон<span className="text-blue-600">.dev</span>
         </a>
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-6 lg:flex">
           {NAV.map((item) => (
             <a
               key={item.href}
