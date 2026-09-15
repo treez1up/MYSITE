@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Header } from "@/components/landing/Header";
 import { Hero } from "@/components/landing/Hero";
 import { ServiceCards } from "@/components/landing/ServiceCards";
+import { Pricing } from "@/components/landing/Pricing";
 import { Process } from "@/components/landing/Process";
 import { Portfolio } from "@/components/landing/Portfolio";
 import { About } from "@/components/landing/About";
@@ -19,6 +20,7 @@ export default function Home() {
       <main>
         <Hero onContact={openContact} />
         <ServiceCards />
+        <Pricing onContact={openContact} />
         <Process />
         <Portfolio />
         <About />

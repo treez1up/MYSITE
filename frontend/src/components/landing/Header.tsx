@@ -6,6 +6,7 @@ interface HeaderProps {
 
 const NAV = [
   { label: "Услуги", href: "#services" },
+  { label: "Цены", href: "#pricing" },
   { label: "Как это работает", href: "#process" },
   { label: "Портфолио", href: "#portfolio" },
   { label: "Обо мне", href: "#about" },
