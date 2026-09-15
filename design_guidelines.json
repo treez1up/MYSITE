@@ -1,0 +1,277 @@
+{
+  "theme": "light_with_subtle_dark_accents",
+  "archetype": "THE_PERFORMANCE_PRO_SWISS_HYBRID",
+  "summary": "Modern, sleek, high-conversion landing page for Platon (18 y.o., Samara) — turnkey websites and business mobile apps delivered within 1 week powered by AI & modern engineering. Crisp white and electric/deep blue palette, buttery smooth motion with motion/react, interactive modal with Telegram, VK, and Max icons, interactive project cost/timeline calculator, high-impact bento showcases, and personal trust bio.",
+  "colors": {
+    "surfaces": [
+      {
+        "name": "page",
+        "kind": "solid",
+        "bg": "#F8FAFC",
+        "on_bg": "#0F172A",
+        "on_bg_muted": "#475569",
+        "roles": {
+          "link": "#2563EB",
+          "link_hover": "#1D4ED8",
+          "error": "#DC2626",
+          "success": "#16A34A",
+          "badge_bg": "#EFF6FF",
+          "badge_text": "#1D4ED8",
+          "border": "#E2E8F0"
+        }
+      },
+      {
+        "name": "panel",
+        "kind": "solid",
+        "bg": "#FFFFFF",
+        "on_bg": "#0F172A",
+        "on_bg_muted": "#64748B",
+        "roles": {
+          "border": "#E2E8F0",
+          "border_highlight": "#93C5FD",
+          "link": "#2563EB"
+        }
+      },
+      {
+        "name": "panel_elevated",
+        "kind": "solid",
+        "bg": "#F1F5F9",
+        "on_bg": "#0F172A",
+        "on_bg_muted": "#475569",
+        "roles": {
+          "border": "#CBD5E1"
+        }
+      },
+      {
+        "name": "hero",
+        "kind": "gradient",
+        "contrast_against": "#F1F5F9",
+        "guarantee": "radial-gradient(ellipse 80% 50% at 50% -20%, rgba(59, 130, 246, 0.15), transparent)",
+        "on_bg": "#0F172A",
+        "on_bg_muted": "#475569",
+        "roles": {
+          "badge_bg": "#DBEAFE",
+          "badge_text": "#1E40AF",
+          "link": "#2563EB"
+        }
+      },
+      {
+        "name": "inverse",
+        "kind": "solid",
+        "bg": "#0B132B",
+        "on_bg": "#F8FAFC",
+        "on_bg_muted": "#94A3B8",
+        "roles": {
+          "border": "#1E293B",
+          "link": "#60A5FA",
+          "accent_glow": "#3B82F6"
+        }
+      },
+      {
+        "name": "social_modal",
+        "kind": "solid",
+        "bg": "#FFFFFF",
+        "on_bg": "#0F172A",
+        "on_bg_muted": "#64748B",
+        "roles": {
+          "telegram_bg": "#229ED9",
+          "telegram_text": "#FFFFFF",
+          "vk_bg": "#0077FF",
+          "vk_text": "#FFFFFF",
+          "max_bg": "#1E293B",
+          "max_text": "#FFFFFF"
+        }
+      },
+      {
+        "name": "glass_header",
+        "kind": "glass",
+        "contrast_against": "#FFFFFF",
+        "guarantee": "backdrop-blur-xl bg-white/80 border-b border-slate-200/80 saturate-150",
+        "on_bg": "#0F172A",
+        "on_bg_muted": "#475569"
+      }
+    ],
+    "accent": "#2563EB",
+    "on_accent": "#FFFFFF",
+    "accent_hover": "#1D4ED8",
+    "secondary_accent": "#0284C7"
+  },
+  "typography": {
+    "font_heading": "'Manrope Variable', sans-serif",
+    "font_sans": "'IBM Plex Sans', sans-serif",
+    "font_mono": "'JetBrains Mono Variable', monospace",
+    "import_statements": [
+      "@import '@fontsource-variable/manrope';",
+      "@import '@fontsource/ibm-plex-sans';",
+      "@import '@fontsource-variable/jetbrains-mono';"
+    ],
+    "scale_px": {
+      "display": 56,
+      "h1": 44,
+      "h2": 32,
+      "h3": 22,
+      "body": 16,
+      "caption": 14
+    },
+    "letter_spacing": {
+      "heading": "tracking-tight",
+      "overtitle": "tracking-[0.15em] uppercase",
+      "body": "tracking-normal"
+    },
+    "cyrillic_support": true
+  },
+  "entry_surfaces": {
+    "/": "split dynamic hero: left brand positioning + value proposition + primary 'Связаться со мной' CTA; right interactive interactive service switcher card (Сайты vs Приложения) with dynamic preview"
+  },
+  "layouts": {
+    "header": "Fixed top-0 left-0 right-0 z-50 h-16 backdrop-blur-xl bg-white/85 border-b border-slate-200/80 px-4 sm:px-8 flex items-center justify-between",
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "sections": [
+      {
+        "id": "hero",
+        "name": "Главный экран (Hero Section)",
+        "description": "Bold headline in Russian, status pill '🚀 До 7 дней под ключ с AI', CTA 'Связаться со мной' triggering the social contact popup, secondary 'Рассчитать стоимость' button, and side-by-side interactive preview cards for 'Сайты для бизнеса' and 'Приложения для бизнеса'."
+      },
+      {
+        "id": "services",
+        "name": "Что я создаю (Services Bento Grid)",
+        "description": "Interactive showcase toggle (Веб-сайты & Лендинги vs Мобильные & Веб-приложения). High-res imagery, feature checklists (SEO, адаптивность, анимации, интеграции платежей, AI-чатботы, CRM), timeline badge ('от 3 до 7 дней')."
+      },
+      {
+        "id": "ai-speed-process",
+        "name": "Почему до 1 недели? ИИ + Экспертиза (Process Section)",
+        "description": "4-step animated flow detailing how AI accelerators + custom architecture speed up production 5x without losing quality: 1. Анализ и генерация концепта (День 1), 2. Дизайн и прототип (День 2-3), 3. AI-разработка & интеграции (День 4-5), 4. Тестирование и запуск (День 6-7)."
+      },
+      {
+        "id": "calculator",
+        "name": "Калькулятор проекта и сроков",
+        "description": "Interactive widget letting clients select project type (Лендинг, Корпоративный сайт, Web App, Мобильное приложение), add features (AI-ассистент, Онлайн-оплата, Личный кабинет, Анимации) to get instant estimated cost and delivery timeline with a direct 'Заказать' action."
+      },
+      {
+        "id": "about-me",
+        "name": "Обо мне (Платон, 18 лет, Самара)",
+        "description": "Personal trust section: Real portrait of Platon, bio text ('Платон, 18 лет, разработчик из Самары. Создаю современные лендинги и веб-приложения под ключ. Совмещаю скорость нейросетей с ручным контролем качества кода и дизайна.'), tech stack badges, key metrics (50+ проектов, 100% соблюдение дедлайнов, 24/7 связь)."
+      },
+      {
+        "id": "faq",
+        "name": "Частые вопросы (FAQ)",
+        "description": "Accordions covering pricing, guarantee of delivery within 7 days, support, domain/hosting setup, source code ownership."
+      },
+      {
+        "id": "footer",
+        "name": "Футер и быстрый контакт",
+        "description": "Dark solid canvas (#0B132B) with large 'Давайте создадим ваш проект' banner, direct messenger links, copyright, and city tag 'г. Самара'."
+      }
+    ]
+  },
+  "social_contact_modal": {
+    "trigger_test_id": "hero-contact-button",
+    "modal_test_id": "social-contact-dialog",
+    "title": "Связаться со мной",
+    "subtitle": "Выберите удобный мессенджер — отвечаю в течение 15 минут",
+    "channels": [
+      {
+        "name": "Telegram",
+        "handle": "@platon_dev",
+        "link": "https://t.me/platon_dev",
+        "icon": "SiTelegram",
+        "color_bg": "#229ED9",
+        "color_text": "#FFFFFF",
+        "badge": "Самый быстрый ответ",
+        "test_id": "contact-telegram-link"
+      },
+      {
+        "name": "ВКонтакте (VK)",
+        "handle": "vk.com/platon_samara",
+        "link": "https://vk.com",
+        "icon": "SiVk",
+        "color_bg": "#0077FF",
+        "color_text": "#FFFFFF",
+        "badge": "Личные сообщения",
+        "test_id": "contact-vk-link"
+      },
+      {
+        "name": "Max",
+        "handle": "MAX Messenger / Direct",
+        "link": "https://max.ru",
+        "icon": "SiMessagebird",
+        "color_bg": "#0F172A",
+        "color_text": "#FFFFFF",
+        "badge": "Рабочий чат",
+        "test_id": "contact-max-link"
+      }
+    ]
+  },
+  "image_urls": [
+    {
+      "category": "websites_service_card",
+      "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzR8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMGxhcHRvcCUyMG1vY2t1cHxlbnwwfHx8fDE3ODk0NjkzMTZ8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Разработка сайтов и современных лендингов для бизнеса",
+      "usage": "Used in the Hero switcher and Services Bento grid for 'Сайты для бизнеса'"
+    },
+    {
+      "category": "apps_service_card",
+      "url": "https://images.unsplash.com/photo-1558655146-6c222b05fce4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzOTB8MHwxfHNlYXJjaHw0fHxtb2JpbGUlMjBhcHAlMjB1aSUyMG1vY2t1cHxlbnwwfHx8fDE3ODk0NjkzMTZ8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Разработка мобильных и веб-приложений для бизнеса",
+      "usage": "Used in the Hero switcher and Services Bento grid for 'Приложения для бизнеса'"
+    },
+    {
+      "category": "platon_portrait",
+      "url": "https://images.unsplash.com/photo-1675869940341-d495d49010b5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwzfHx5b3VuZyUyMGRldmVsb3BlciUyMHBvcnRyYWl0fGVufDB8fHx8MTc4OTQ2OTMxNnww&ixlib=rb-4.1.0&q=85",
+      "alt": "Платон — 18 лет, веб-разработчик из Самары",
+      "usage": "Placed prominently right above or beside the bio in the 'Обо мне' section"
+    },
+    {
+      "category": "ai_tech_mockup",
+      "url": "https://images.unsplash.com/photo-1504707748692-419802cf939d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzR8MHwxfHNlYXJjaHwzfHx3ZWIlMjBkZXZlbG9wbWVudCUyMGxhcHRvcCUyMG1vY2t1cHxlbnwwfHx8fDE3ODk0NjkzMTZ8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "AI-ускоренная разработка и генерация кода",
+      "usage": "Used in the 'Почему до недели' AI workflow feature section"
+    }
+  ],
+  "motion": {
+    "engine": "motion/react",
+    "principles": [
+      "Smooth stagger on page scroll (viewport once: true, margin: '-50px')",
+      "Hover lift on interactive cards: transform -translate-y-1.5 with shadow-lg",
+      "Modal spring entrance: scale 0.95 -> 1 with opacity 0 -> 1",
+      "Pulse dot on 'Свободен для 2 заказов на этой неделе' status pill",
+      "Interactive tab transition for Services and Pricing tabs"
+    ]
+  },
+  "accessibility": {
+    "contrast_check": "All text tokens meet 4.5:1 minimum APCA/WCAG ratio. Primary dark slate text (#0F172A) on #F8FAFC has 14.2:1 contrast. Primary button text (#FFFFFF on #2563EB) has 4.6:1 contrast.",
+    "keyboard_nav": "Dialog focus trap and Escape key dismissal enabled via @base-ui / shadcn Dialog primitive.",
+    "reduced_motion": "Wrap non-essential motion components in prefers-reduced-motion safe variants."
+  },
+  "testing_attributes": {
+    "hero_cta_button": "data-testid=\"hero-contact-button\"",
+    "navbar_cta_button": "data-testid=\"navbar-contact-button\"",
+    "contact_modal": "data-testid=\"social-contact-dialog\"",
+    "telegram_link": "data-testid=\"contact-telegram-link\"",
+    "vk_link": "data-testid=\"contact-vk-link\"",
+    "max_link": "data-testid=\"contact-max-link\"",
+    "service_tab_sites": "data-testid=\"service-tab-sites\"",
+    "service_tab_apps": "data-testid=\"service-tab-apps\"",
+    "calculator_type_select": "data-testid=\"calculator-type-select\"",
+    "calculator_total_price": "data-testid=\"calculator-total-price\"",
+    "calculator_order_btn": "data-testid=\"calculator-order-btn\"",
+    "about_me_section": "data-testid=\"about-me-section\"",
+    "about_me_photo": "data-testid=\"about-me-photo\"",
+    "about_me_bio": "data-testid=\"about-me-bio\""
+  },
+  "instructions_to_main_agent": [
+    "Template is farm-ts: edit frontend in /app/frontend/src. Theme CSS is /app/frontend/src/index.css.",
+    "Configure fonts in /app/frontend/src/index.css: import '@fontsource-variable/manrope', '@fontsource/ibm-plex-sans', and '@fontsource-variable/jetbrains-mono'. Set --font-heading to Manrope Variable and --font-sans to IBM Plex Sans.",
+    "Ensure complete Russian copy with natural, high-converting phrasing ('Лендинги и приложения для бизнеса за 7 дней с помощью AI').",
+    "Implement the 'Связаться со мной' popup dialog using shadcn Dialog with custom branded cards for Telegram, VK, and Max icons with direct click/copy actions and data-testid attributes.",
+    "Build the interactive Project Calculator widget letting clients pick options and see real-time price & deadline estimate.",
+    "Add Platon's Bio section with photo, bio details (18 лет, Самара, разработка под ключ), tech badges, and credibility markers.",
+    "Incorporate motion animations with motion/react for smooth entry transitions and micro-interactions.",
+    "Always ensure all buttons, inputs, links, and major headings have appropriate data-testid tags."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": {
+    "anti_ai_slop": "Do not make generic centered cards with washed-out gradients. Use crisp borders, subtle glows, asymmetric bento layouts, high-contrast typography, and thoughtful Russian copywriting.",
+    "spacing": "Generous spacing (p-8, p-12, py-20 to py-28 for major sections) with strong visual hierarchy.",
+    "toasts": "Use sonner for instant feedback on copy/contact actions."
+  }
+}
